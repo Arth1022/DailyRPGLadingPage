@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+body {
+  background-color: rgba(28, 28, 28);
+}
+
+.fade-divider {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    white 10%,
+    white 90%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    white 10%,
+    white 90%,
+    transparent
+  );
+}
+
+.pixel-font {
+  font-family: "Press Start 2P", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.alinhamento-interno-centralizado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  color: #ccc9d4;
+}

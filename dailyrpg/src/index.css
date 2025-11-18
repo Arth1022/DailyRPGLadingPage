@@ -3,3 +3,18 @@
 body {
   background-color: rgba(29, 34, 40);
 }
+
+.fade-divider {
+  -webkit-mask-image: linear-gradient(to right, 
+    transparent, 
+    white 10%,  
+    white 90%,   
+    transparent  
+  );
+  mask-image: linear-gradient(to right, 
+    transparent, 
+    white 10%, 
+    white 90%, 
+    transparent
+  );
+}
