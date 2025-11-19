@@ -1,4 +1,4 @@
-import { FaInstagram, FaLinkedin, FaFacebook } from 'react-icons/fa';
+import {FaEnvelope, FaInstagram, FaLinkedin, FaFacebook, } from 'react-icons/fa';
 
 function SocialMidia() {
     const socialLinks = [
@@ -22,6 +22,13 @@ function SocialMidia() {
             url: "https://www.facebook.com/arthur.alexandre.5011516/", 
             name: "Facebook",
             color: "text-amber-300" 
+        },
+        {
+            id: 4,
+            icon: FaEnvelope,
+            url: "mailto:arthurteixeira.1337@gmail.com",
+            name: "Email",
+            color: "text-amber-300"
         }
     ];
 
