@@ -4,12 +4,16 @@ import loja from '../assets/loja.png';
 import login from '../assets/login.png';
 import inv from '../assets/inv.png';
 import contrato from '../assets/contrato.png';
+import forja from '../assets/forja.png';
+import rank from '../assets/rank.png';
 
 const images = [
   login,
   inv,
   loja,
   contrato,
+  forja,
+  rank,
 ];
 
 function Carrossel() {
